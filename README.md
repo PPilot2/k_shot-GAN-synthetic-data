@@ -7,5 +7,4 @@ Sentiment analysis is an important tool for businesses and governments that help
 # To start
 
 Requirements:
-- OpenAI API Key
 - Huggingface login credentials
