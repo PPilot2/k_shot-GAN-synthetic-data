@@ -1,10 +1,10 @@
-## K_shot-GAN-synthetic-data
+# K_shot-GAN-synthetic-data
 
 Improving the generation of synthetic data in LLMs using k-shot prompting and a GAN.
 
 Sentiment analysis is an important tool for businesses and governments that helps them better understand public opinions, allowing them to make decisions based on trends. A commonly used approach to sentiment analysis utilizes CNNs (Convolutional Neural Networks) which typically perform best when given large datasets. However, acquiring this data may be difficult to obtain and time-consuming. In order to address these problems, we present a new approach involving combining GANs and k-shot prompting for synthetic data generation using the Mistral-7B-v0.3 and Phi-3-Mini-4K models. 
 
-# To start
+## To start
 
 1. Begin by running dataCleaning.ipynb.
 
@@ -17,7 +17,7 @@ Sentiment analysis is an important tool for businesses and governments that help
 Requirements:
 - Huggingface login credentials
 
-# Results
+## Results
 
 We report the accuracy of our k-shot prompting
 method, averaged over three runs, using varying
@@ -41,3 +41,24 @@ synthetic data and the 50/50 approach for both Phi
 and Mistral.
 
 ![accuracy table](images/accuracyTable.png)
+
+## Conclusion
+
+In this work, we tested a new method of gener-
+ating synthetic data for sentiment analysis. Our
+method uses varying levels of k in k-shot prompt-
+ing to generate complex, contextually accurate data. 
+This research has demonstrated the efficacy of our approach in improving
+the generation of synthetic data. We find that 15
+shot’s performance is comparable to that of a real
+dataset. Most importantly, a GAN required several
+thousand data samples while our k-shot prompt-
+ing approach was able to perform better with only
+15 data samples, highlighting the potential of this
+method to reduce the reliance on large, annotated
+datasets that are costly and time-consuming to ob-
+tain. Ultimately, the results from our experiments
+show our method’s potential to overcome current
+limitations in synthetic data generation, paving the
+way for more sophisticated and accurate models in
+sentiment analysis and beyond.
