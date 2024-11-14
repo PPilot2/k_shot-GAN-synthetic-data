@@ -44,20 +44,16 @@ and Mistral.
 
 ## Conclusion
 
-In this work, we tested a new method of gener-
-ating synthetic data for sentiment analysis. Our
-method uses varying levels of k in k-shot prompt-
-ing to generate complex, contextually accurate data. 
+In this work, we tested a new method of generating synthetic data for sentiment analysis. Our
+method uses varying levels of k in k-shot prompting to generate complex, contextually accurate data. 
 This research has demonstrated the efficacy of our approach in improving
 the generation of synthetic data. We find that 15
 shot’s performance is comparable to that of a real
 dataset. Most importantly, a GAN required several
-thousand data samples while our k-shot prompt-
-ing approach was able to perform better with only
+thousand data samples while our k-shot prompting approach was able to perform better with only
 15 data samples, highlighting the potential of this
 method to reduce the reliance on large, annotated
-datasets that are costly and time-consuming to ob-
-tain. Ultimately, the results from our experiments
+datasets that are costly and time-consuming to obtain. Ultimately, the results from our experiments
 show our method’s potential to overcome current
 limitations in synthetic data generation, paving the
 way for more sophisticated and accurate models in
